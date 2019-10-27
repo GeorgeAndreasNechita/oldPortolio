@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Block Manipulation</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="menu">
+		<!-- Position Y -->
+		<div class="block">
+			<h3>Position Y</h3>
+			<div class="div-2 pos-y">
+				<input type="range" min="0" max="600" value="0" class="input" id="pos-y">
+					<div>
+					<p>0</p>
+					<br>
+					<p>600</p>				
+					</div>
+			</div>
+		</div>
+		<!-- Position X -->
+		<div class="block">
+			<h3>Position X</h3>
+			<div class="div-2">
+				<div class="label">
+					<span class="left">0%</span>
+					<span class="right">100%</span>
+				</div>
+				<input type='range' min='0' max='88.9' value="0" id="pos-x" class="input">
+			</div>
+		</div>
+		<!-- Size -->
+		<div class="block">
+			<h3>Size</h3>
+			<div class="div-2">
+				<div class="label">
+					<span>0.5</span>
+					<span>2</span>
+				</div>
+				<input type="range" min="50" max="200" value="100" id="size" class="input">
+			</div>
+		</div>
+		<!-- Opacity -->
+		<div class="block">
+			<h3>Opacity</h3>
+			<div class="div-2">
+				<div class="label label-opacity">				
+					<span>0</span>
+					<span>1</span>
+				</div>
+				<input type="range" min="0" max='100' value="100" id="opacity" class="input">
+			</div>
+		</div>	
+		<!-- Shape Type-->
+		<div class="block">
+			<h3>Shape Type</h3>
+			<div class="div-2">
+				<select id="shape-election">
+					<option value="Square">Square</option>
+					<option value="Circle">Circle</option>
+					<option value="Rhombus">Rhombus</option>
+				</select>
+			</div>
+		</div>
+		<!-- Hex -->
+		<div class="block hex">
+			<h3>HEX</h3>
+			<div class="div-2">
+				<label for="hex-text">#</label>
+				<input type="text" id="hex-text">
+			</div>
+		</div>
+		<!-- RGBA -->
+		<div class="block">
+			<h3>RGBA</h3>
+			<div class="RGBA">
+				<input type='range' min='0' max="256" value="256" id='red' class="input">
+				<label for="red">R</label>
+				<input type="range" min='0' max="256" value="0" id="green" class="input">
+				<label for="green">G</label>
+				<input type="range" min='0' max="256" value="0" id="blue" class="input">
+				<label for="blue">B</label>
+				<input type="range" min='0' max="100" value="100" id="opacity2" class="input">
+				<label for="opacity2">A</label>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Red Block -->
+	<div class="block1"></div>
+
+	<script src="js/scripts.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.mtop-20{
+	margin-top: 20px;
+}
+
+.footer{
+	margin-top: 50px;
+	height: 80px;
+}
+footer .container,footer .row{
+	height: 100%;
+}
+footer p{
+	margin: 0 0;
+}

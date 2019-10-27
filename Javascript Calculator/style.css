@@ -1,0 +1,41 @@
+body{
+	background: url('background.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+
+}
+main{
+
+}
+.title-div{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.calculator-frame{
+
+	width: 250px;
+	margin-top: calc(7.5%);
+	margin-left: calc(50% - 125px);
+
+}
+
+.display-div{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.even-grid{
+	margin-top: 3px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 4px;
+}
+
+.number-button{
+	background: gray;
+}
+.calculator-frame{
+	color: white;
+	font-size: 21px;
+	font-family: ;
+	font-weight: 600;
+}

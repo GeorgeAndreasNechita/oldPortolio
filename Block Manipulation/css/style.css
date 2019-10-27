@@ -1,0 +1,105 @@
+body{
+	padding: 10px 10px 10px 10px;
+}
+.menu{
+	    display: block;
+}
+/*Control block*/
+.block{
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(to top, #333 0%, #666 30%, #333 100%);
+    box-shadow: inset 2px 2px 5px 2px #333;
+    border-radius: 10px;
+    color: #fff;
+	display: inline-block;
+	vertical-align: top;
+}
+/*Block that moves*/
+.block1{
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	margin-top: 10px;
+	position: relative;
+}
+/*Control block title*/
+h3 {
+    font-family: Arial;
+  	font-size: 19px !important;
+    text-align: center;
+    padding: 12px 0px 0px 0px;
+    font-weight: 600 !important;
+}
+.hex input{
+	justify-content: center;
+	width: 80%;
+}
+/*Division inside the black control boxes*/
+.div-2{
+	text-align: center;
+	margin-top: 15px;
+}
+/* Slider for position y(ID,NOT A CLASS)*/
+#pos-y{
+		transform: rotate(90deg);
+		width: 75px;
+		position: relative;
+		top: 35px;
+		left: 25px;
+		float: left;
+}
+/**/
+.pos-y div{
+	float: right;
+	margin-right: 45px;
+}
+.input{
+	width: 100px;
+}
+.RGBA{
+	text-align: center;
+	font-size: 9px;
+}
+.label{
+	/*text-align: right;*/
+}
+/*Text inside the shape election box*/
+#shape-election{
+	margin-top: 25px;
+	font-size: 14px;
+}
+/*Text inside the hex box*/
+#hex-text{
+	width: 55%;
+	font-size: 15px;
+	margin-top: 25px;
+}
+/*Make the RGBA bars shorter*/
+.RGBA input{
+	width: 55%;
+	margin: 0 0;
+	padding: 0 0;
+}
+.RGBA label{
+	font-size: 12px;
+	margin: 0 0;
+	padding: 0 0;
+}
+/* Center the bar number indiators a bit*/
+.label{
+	margin: 0 11%;
+}
+
+.label-opacity{
+	margin: 0 14%;
+}
+/*Move bar number indicator to the left*/
+.label span:nth-child(1){
+	float: left;
+}
+/*Move bar number indicator to the right*/
+.label span:nth-child(2){
+	float: right;
+}
+
