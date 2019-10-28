@@ -12,3 +12,7 @@ footer .container,footer .row{
 footer p{
 	margin: 0 0;
 }
+
+.btn{
+	margin-left: calc(50% - 36.845px);
+}
