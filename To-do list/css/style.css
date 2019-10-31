@@ -1,0 +1,80 @@
+body{
+	background-color: #ffffe5;
+}
+.frame{
+margin: 7% 0 0 calc(50% - 200px);
+		width: 400px;
+
+}
+.header>div{
+	color: white;
+	height: 80px;
+	background-color: #3f94d6;
+	border-radius: 30px 30px 0px 0px;
+
+}
+.header div h2{
+	font-weight: 600;
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial;
+    position: relative;
+    line-height: 80px;
+}
+/*Row with input and + button to add a new task */
+.add-task{
+	display: grid;
+	grid-template-columns: 9fr 2fr;
+}
+.row{
+	width: 400px;
+	height: 50px;
+	margin: 0;
+}
+/*Styles for the first and third columns*/
+.add-remove, .checkbox{
+background-color: #bbdefb;
+				display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Cursor pointer on the add task and remove task buttons*/
+.add-remove{
+	cursor: pointer;
+}
+.add-remove:hover{
+	background-color: #90caf9;
+}
+.plus{
+	font-size: 32px;
+	font-weight: 900;
+	color: #3f94d6;
+}
+.task-text{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+	font-weight: 400;
+	border: 0.1px solid gray;
+}
+.task{
+	display: grid;
+	grid-template-columns: 1fr 8fr 2fr;
+margin-top: 1.5px;
+}
+img {
+	width: 40px;
+}
+.linethrough{
+	text-decoration:line-through;
+}
+.task-row{
+	border:3.5px solid gray;
+}
+.border-radius-left{
+	border-radius: 0 0 0 30px;
+}
+.border-radius-right{
+	border-radius: 0 0 30px 0px;
+}

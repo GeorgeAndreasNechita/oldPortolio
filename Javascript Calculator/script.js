@@ -156,3 +156,12 @@ for(let i=0;document.querySelectorAll('.numberButton').length;i++){
 	})
 }
 
+
+
+
+
+
+
+
+
+
