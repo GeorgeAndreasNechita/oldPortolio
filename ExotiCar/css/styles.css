@@ -7,15 +7,18 @@ body{
 }
 
 							/*Top Menu*/
+
 .wrapper{
 	display: grid;
 	grid-template-columns: 1.4fr 1.1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
 	background: rgba(0,0,0,0.80);
 	height: 66px;
 	position: absolute;	
 	width: 100%;
 	align-items: center;
 	justify-items:center;
+	grid-row: 100%;
 }
 .logo-div img{
 	margin-left: 15%;
@@ -34,6 +37,66 @@ body{
 	cursor: pointer;
 	text-transform: uppercase;
 }
+.responsive-burger{
+	display: none;
+	grid-column: 1/3;
+	position: absolute;
+	margin-top: 236px;
+	width: 100%;
+	background: rgba(0,0,0,1)
+}
+.burger-anchor{
+	font-size: 15px;
+	display: block;
+	line-height: 34px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-align: center;
+}
+.rb-icon{
+	display: none;
+}
+
+@media screen and (max-width: 800px){
+	.wrapper{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 100%;
+	}
+	.top-list-element{
+		display: none;
+	}
+	.rb-icon{
+		text-align: center;
+		display: grid;
+		font-size: 30px;
+		text-decoration: none;
+		color: white;
+		width: 100%;
+	}
+	.rb-icon-div{
+		display: grid;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
+	.rb-icon-div:hover>a{
+	color: gray;
+	}
+	.rb-icon-div:hover + .responsive-burger{		
+		display: block;		
+	}
+	.responsive-burger:hover{
+		display: block;	
+	}
+
+
+	
+}	
+
+
 						/*END OF TOP MENU*/
 
 				/*Car banner and text in the middle*/
@@ -198,8 +261,4 @@ body{
 	background-color: white;
 }
 						/*END OF FOOTER*/
-@media screen and (max-width: 800px){
-	.top-list-element{
-		display: none;
-	}
-}						
+					
