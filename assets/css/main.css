@@ -202,7 +202,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4rem;
+		font-size: 3.2rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
@@ -4722,3 +4722,10 @@ input, select, textarea {
 		/*width: 347.67px;			*/
 		height: 179px;
 	}
+.description {
+	font-size: 17px;
+	text-align: center;
+}
+.about-me{
+	font-size: 16px;
+}

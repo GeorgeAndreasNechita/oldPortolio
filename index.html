@@ -51,56 +51,109 @@
 									<!-- <h2>About me</h2> -->
 									<p>
 									</p>
-									<p>My passion for programming started when I was doing my first internship in Spain, when I started learning Python in order to automate the sending of personalized emails to clients. I had zero programming knowledge before that and the script was very simple.
+									<p class='about-me'>My passion for programming started when I was doing my first internship in Spain, when I started learning Python in order to automate the sending of personalized emails to clients. I had zero programming knowledge before that and the script was very simple.
 									</p>
-									<p>
+									<p class='about-me'>
 									Since then I never stopped programming, although very small things in Python and AutoHotkey, a scripting language for automation, including 2 summer months in which I fully dedicated myself to learning web development before starting my Masters degree.
 								</p>
 								
-								<p>
-									Now I'm back at learning web development and I'm commited to starting a career in it. <br>Currently I'm learning more advanced concepts and doing more personal projects to put these concepts in practice.
+								<p class='about-me'>
+									Now I'm back at learning web development and I'm commited to starting a career in it. <br>In the last 2 months I have spent a big amount of effort on learning Angular 8.
 								</p>
 								</header>
-							</article>
-						<h1 id="personal-projects"><a href="https://github.com/GeorgeAndreasNechita?tab=repositories">Personal Projects</a></h1>
+       </article>
+   
+       <!-- Microservices and API Projects -->
+      <h1 id="personal-projects"><a href="https://github.com/GeorgeAndreasNechita?tab=repositories">Angular Projects</a></h1>
+      <p class='description'>The project in this section was made in 2.5 weeks in order to practice everything after learning a big amount of Angular theory in the previous 2 months. The project has a lot of Angular features: <b>Components, String Interpolation, Data,Event and Property Binding, directives(ngIf,ngFor),@ViewChild Decorator,Services, the Router module, the Http module for CRUD operations, and local references</b>, among others. </p>
+
+      <!-- Posts -->
+							<section class="posts">
+                <article>
+
+                </article>
+								<article>
+									<header>
+          <!-- Title -->
+										<h2><a href="https://stackblitz.com/edit/random-quotes-generator">Random Quote Generator</a></h2>
+									</header>
+									<a href="https://random-quotes-generator.stackblitz.io/" class="image fit"><img src="images/Random Quote Generator.jpg" alt="To-do list image" id="to-do-list" /></a>
+									<p class="angularProject">The project has <b>2 pages</b>: <b>Home</b> and <b>Quotes</b>. On the first page the user can generate random quotes received from a <b>Google Firebase database</b>, and also add their own quotes. <b>On the second page</b> the user can see all the quotes stored on the database and edit each one of them and <b>delete them</b> from the database.
+                    There is also a button that <b>resets the quotes</b> in the database to the original ones I created.
+                  </p>
+									<ul class="actions special">
+										<li><a href="https://random-quotes-generator.stackblitz.io/" class="button"><i class="far fa-eye"></i> See Project</a></li>
+										<li><a href="https://stackblitz.com/edit/random-quotes-generator" class="button"><i class="fab fa-github"></i> View Code</a></li>
+									</ul>
+                </article>
+
+       </section>
+       <!-- END OF ANGULAR Projects -->
+       <!-- Microservices and API Projects -->
+      <h1 id="personal-projects"><a href="https://github.com/GeorgeAndreasNechita?tab=repositories">Microservices and API Projects</a></h1>
+      <p class='description'>These project ideas were taken from  <b>FreeCodeCamp</b>, an online learning platform focused on <b>Full-Stack Web Development</b>. <b>Everything here is made by myself starting from a very basic boilerplate template</b>. They were made to practice and extend my knowledge in <b>NodeJs, Node Package Manager(NPM), the Express package and MongoDB and Mongoose</b>. </p>
 						<!-- Posts -->
-						<!-- <div>Personal Projects</div> -->
+						
 							<section class="posts">
 								<article>
 									<header>
           <!-- Title -->
+		  <p></p>
 										<h2><a href="https://glitch.com/edit/#!/gan-url-shortener?path=README.md:1:0">URL Shortener</a></h2>
 									</header>
 									<a href="https://gan-url-shortener.glitch.me/" class="image fit"><img src="images/Url Shortener.jpg" alt="To-do list image" id="to-do-list" /></a>
-									<p>Suggested project idea from FreeCodeCamp to learn API and Microservices
-          . It uses Node.js, Express and also a MongoDB cloud database for the URL's</p>
+									<p>This project uses <b>Node.js</b>, <b>Express</b> and also a <b>MongoDB cloud database</b> for the URL's. What it does is receive a website url from the user, <b>check if it's a valid url</b>, and then add it to a MongoDB database and also generate a shorter version of it(id). The user can access this url by going to an endpoint with the id/short url.</p>
 									<ul class="actions special">
-										<li><a href="https://gan-url-shortener.glitch.me/" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
-										<li><a href="https://glitch.com/edit/#!/gan-url-shortener?path=README.md:1:0" class="button"><i class="fab fa-github"></i> To Repository</a></li>
+										<li><a href="https://gan-url-shortener.glitch.me/" class="button"><i class="far fa-eye"></i> See Project</a></li>
+										<li><a href="https://glitch.com/edit/#!/gan-url-shortener?path=README.md:1:0" class="button"><i class="fab fa-github"></i> View Code</a></li>
 									</ul>
-								</article>
+        </article>
+
+        <article>
+									<header>
+										<h2><a href="https://glitch.com/edit/#!/gan-request-header-microservice?path=README.md:1:0">Request Header Parser</a></h2>
+									</header>
+									<a href="https://gan-request-header-microservice.glitch.me/" class="image fit"><img src="images/Request Header Parser Microservice.jpg" alt="To-do list image" id="to-do-list" /></a>
+                  <p>Simple project that returns some information about the client, like <b>IP address</b>, <b>languages</b> used and <b>software</b> <b>details</b>  when you go to the endpoint. </p>
+
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+									<ul class="actions special">
+										<li><a href="https://gan-request-header-microservice.glitch.me/" class="button"><i class="far fa-eye"></i> See Project</a></li>
+										<li><a href="https://glitch.com/edit/#!/gan-request-header-microservice?path=README.md:1:0" class="button"><i class="fab fa-github"></i> View Code</a></li>
+									</ul>
+        </article>
 								<article>
 									<header>
 										<h2><a href="https://glitch.com/edit/#!/timestamp-ga">Timestamp Microservice</a></h2>
 									</header>
 									<a href="https://timestamp-ga.glitch.me/api/timestamp/" class="image fit"><img src="images/Timestamp.jpg" alt="To-do list image" id="to-do-list" /></a>
-									<p>Interesting project idea I took from FreeCodeCamp. It uses Node.js and the Moment and Express Npm packages. The API endpoint is GET https://timestamp-ga.glitch.me/api/timestamp/:date_string?. More description on the image.</p>
+         <p>This project <b>converts between Unix time epoch and normal dates</b>, and returns a JSON file. It uses <b>Node.js</b> and the <b>Moment</b> and <b>Express</b> <b>Npm packages</b>. More description on the image.</p>
+         <br><br><br>
 									<ul class="actions special">
-										<li><a href="https://timestamp-ga.glitch.me/api/timestamp/" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
-										<li><a href="https://glitch.com/edit/#!/timestamp-ga" class="button"><i class="fab fa-github"></i> To Repository</a></li>
+										<li><a href="https://timestamp-ga.glitch.me/api/timestamp/" class="button"><i class="far fa-eye"></i> See Project</a></li>
+										<li><a href="https://glitch.com/edit/#!/timestamp-ga" class="button"><i class="fab fa-github"></i> View Code</a></li>
 									</ul>
-								</article>
+        </article>
+       </section>
+       <!-- END OF    Microservices and API Projects -->
+
+       <h1 id="personal-projects"><a href="https://github.com/GeorgeAndreasNechita?tab=repositories">Javascript Projects</a></h1>       
+       <p class="description">These projects were made in order to learn and practice <b>Javascript</b> after I had some solid knowledge of <b>HTML</b></b> and <b>CSS</b></p>
+       <section class="posts">
 								<article>
 									<header>
 										<h2><a href="https://github.com/GeorgeAndreasNechita/To-do-list/blob/master/index.html"><br>To-do list	<br />
 										</a></h2>
 									</header>
 									<a href="To-do list\index.html" class="image fit"><img src="https://i.imgur.com/TyA8wQF.jpg" alt="To-do list image" id="to-do-list" /></a>
-									<p>Javascript project made to advance my knowledge of the DOM.
+									<p>Javascript project made <b>to advance my knowledge of the DOM</b>.
 
 Compared to other similar projects my JavaScript is too complex and long, but it was good practice.</p>
 									<ul class="actions special">
-										<li><a href="To-do list\index.html" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
+										<li><a href="To-do list\index.html" class="button"><i class="far fa-eye"></i> See Project</a></li>
 										<li><a href="https://github.com/GeorgeAndreasNechita/To-do-list/blob/master/index.html" class="button"><i class="fab fa-github"></i> To Repository</a></li>
 									</ul>
 								</article>
@@ -110,26 +163,47 @@ Compared to other similar projects my JavaScript is too complex and long, but it
 										</a></h2>
 									</header>
 									<a href="Javascript Calculator\index.html" class="image fit"><img src="images/Calculator.jpg" alt="" /></a>
-									<p>Simple calculator I made to learn how to better use Javascript along with HTML and CSS. The layout was made with CSS grid and the calculator logic with Javascript.</p>
+									<p>Simple calculator I made to learn how to better use Javascript along with HTML and CSS. <b>The layout was made with CSS grid and the calculator logic with Javascript</b>.</p>
 									<ul class="actions special">
-										<li><a href="Javascript Calculator\index.html" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
+										<li><a href="Javascript Calculator\index.html" class="button"><i class="far fa-eye"></i> See Project</a></li>
 										<li><a href="https://github.com/GeorgeAndreasNechita/Javascript-Calculator" class="button"><i class="fab fa-github"></i> To Repository</a></li>
 									</ul>
-								</article>
-								<article>
+        </article>
+        
+        <article>
+									<header>
+										<!-- <span class="date">April 11, 2017</span> -->
+										<h2><a href="https://github.com/GeorgeAndreasNechita/Block-Manipulation"><br>Block Manipulation<br />
+										</a></h2>
+									</header>
+									<a href="Block Manipulation/index.html" class="image fit"><img src="images/Block Manipulation.jpg" alt="" /></a>
+									<p>My first project ever with Javascript. It allows you to <b>manipulate a square block with panels</b> that control the <b>position, size, color,shape</b> and <b>opacity</b> of the block.</p>
+									<ul class="actions special">
+										<li><a href="Block Manipulation/index.html" class="button"><i class="far fa-eye"></i> See Project</a></li>
+										<li><a href="https://github.com/GeorgeAndreasNechita/Block-Manipulation" class="button"><i class="fab fa-github"></i> To Repository</a></li>
+									</ul>
+        </article>
+       </section>
+
+       <h1 id="personal-projects"><a href="https://github.com/GeorgeAndreasNechita?tab=repositories">HTML & CSS Projects</a></h1>
+	   <p class="description">These are my first project in <b>Front-End</b>. They only contain <b>HTML</b> and <b>CSS</b></p>  
+	   <section class='posts'>
+        <article>
 									<header>
 										<!-- <span class="date">April 22, 2017</span> -->
 										<h2><a href="https://github.com/GeorgeAndreasNechita/CV"><br>Resume<br />
 										</a></h2>
 									</header>
 									<a href="CV/index.html" class="image fit"><img src="images/Resume.jpg" alt="" /></a>
-									<p>This is my CV in a website format. The Resume was made first with Microsoft Word, and this one with HTML and CSS. Both of them were made from 0 by myself.
+									<p>This is my old CV in a <b>HTML</b> and <b>CSS</b> <b>format</b>. The Resume was made first with <b>Microsoft</b> <b>Word</b>, and this one with HTML and CSS. 
+            Both the Word version and this web versions were made by myself from 0.
 </p>
 									<ul class="actions special">
-										<li><a href="CV/index.html" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
+										<li><a href="CV/index.html" class="button"><i class="far fa-eye"></i> See Project</a></li>
 										<li><a href="https://github.com/GeorgeAndreasNechita/CV" class="button"><i class="fab fa-github"></i> To Repository</a></li>
 									</ul>
 								</article>
+
 								<article>
 									<header>
 										<!-- <span class="date">April 18, 2017</span> -->
@@ -137,11 +211,11 @@ Compared to other similar projects my JavaScript is too complex and long, but it
 										</a></h2>
 									</header>
 									<a href="Let's Travel\index.html" class="image fit"><img src="images/Lets Travel.jpg" alt="" /></a>
-									<p>Project I had to replicate for a Udemy course.
-
-Visually simple,it was created very fast with Bootstrap assets, but it's also a more advanced website in terms of functionality than Gotham and Exoticar.</p>
+									<p>
+Visually simple,it was created very fast with <b>Bootstrap</b> <b>assets</b>, but it's also a <b>more advanced website in terms of functionality</b> than Gotham and Exoticar.</p>
+<br>
 									<ul class="actions special">
-										<li><a href="Let's Travel\index.html" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
+										<li><a href="Let's Travel\index.html" class="button"><i class="far fa-eye"></i> See Project</a></li>
 										<li><a href="https://github.com/GeorgeAndreasNechita/Lets-Travel" class="button"><i class="fab fa-github"></i> To Repository</a></li>
 									</ul>
 								</article>
@@ -152,29 +226,13 @@ Visually simple,it was created very fast with Bootstrap assets, but it's also a 
 										</a></h2>
 									</header>
 									<a href="Gotham/index.html" class="image fit"><img src="images/Gotham.jpg" alt="" /></a>
-									<p>Another project I had to make for a Udemy course.
-
-This page has a searchbar, a self made calendary and much more elements that change when you are hovering with the mouse or using them.</p>
+									<p>This page is similar to Exotticar, except it's a <b>bit more advanced</b>. It has a <b>searchbar</b>, a <b>self made calendar</b> and many more elements that change when <b>hovering</b> with the mouse or <b>using</b> them.</p>
 									<ul class="actions special">
-										<li><a href="Gotham/index.html" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
+										<li><a href="Gotham/index.html" class="button"><i class="far fa-eye"></i> See Project</a></li>
 										<li><a href="https://github.com/GeorgeAndreasNechita/Gotham" class="button"><i class="fab fa-github"></i> To Repository</a></li>
 									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 11, 2017</span> -->
-										<h2><a href="https://github.com/GeorgeAndreasNechita/Block-Manipulation"><br>Block Manipulation<br />
-										</a></h2>
-									</header>
-									<a href="Block Manipulation/index.html" class="image fit"><img src="images/Block Manipulation.jpg" alt="" /></a>
-									<p>First project with Javascript. It has panels that control the position, size, color,shape and opacity of a square block.
-
-I made some improvements on the original, the block changes are in real time.</p>
-									<ul class="actions special">
-										<li><a href="Block Manipulation/index.html" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
-										<li><a href="https://github.com/GeorgeAndreasNechita/Block-Manipulation" class="button"><i class="fab fa-github"></i> To Repository</a></li>
-									</ul>
-								</article>
+        </article>
+        
 								<article>
 									<header>
 										<!-- <span class="date">April 7, 2017</span> -->
@@ -182,10 +240,10 @@ I made some improvements on the original, the block changes are in real time.</p
 										</a></h2>
 									</header>
 									<a href="ExotiCar/index.html" class="image fit"><img src="images/ExotiCar.jpg" alt="" /></a>
-									<p>My first Project. I learned a lot regarding element positioning. It has simple things like tables, superposing text over a image, 2 columns in a same row, buttons, elements that change when you hover.
+									<p>My first Project. I learned a lot regarding <b>element positioning</b>. It has simple things like <b>tables</b>, <b>superposing</b> <b>text</b> over a image, 2 columns in a same row, <b>buttons</b>, elements that change when <b>hovering</b>.
 </p>
 									<ul class="actions special">
-										<li><a href="ExotiCar/index.html" class="button"><i class="far fa-eye"></i> Live Preview</a></li>
+										<li><a href="ExotiCar/index.html" class="button"><i class="far fa-eye"></i> See Project</a></li>
 										<li><a href="https://github.com/GeorgeAndreasNechita/Exotticar" class="button"><i class="fab fa-github"></i> To Repository</a></li>
 									</ul>
 								</article>
